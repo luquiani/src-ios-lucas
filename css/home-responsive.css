@@ -1,0 +1,312 @@
+/* This code is only meant for previewing your Reflow design. */
+.home-menu-container {
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+}
+
+#menu {
+    float: none;
+    height: auto;
+    clear: none;
+    width: 640px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 0px;
+    margin-top: 0px;
+}
+
+#presenta {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-width: 0px;
+    min-height: 0px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 2% 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#table {
+    float: none;
+    height: auto;
+    margin: 4% auto 0px;
+    clear: both;
+    width: 90%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-width: 0px;
+}
+
+#cell-1 {
+	background-image: url(../images/icono-mapa.gif);
+	background-repeat: no-repeat;
+	background-size:200% auto; 
+    float: left;
+    height: auto;
+    clear: none;
+    width: 28%;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;      
+}
+#cell-2 {
+	background-image: url(../images/icono-horarios.gif);
+	background-repeat: no-repeat;
+	background-size:200% auto; 
+    float: left;
+    height: auto;
+    clear: none;
+    width: 28%;
+    margin: 0px 0px 0px 8%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;       
+}
+#cell-3 {
+	background-image: url(../images/icono-sostenibilidad.gif);
+	background-repeat: no-repeat;
+	background-size:200% auto; 
+    float: right;
+    height: auto;
+    clear: none;
+    width: 28%;
+    margin: 0px 0% 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;       
+}
+#cell-4 {
+	background-image: url(../images/icono-sponsors.gif);
+	background-repeat: no-repeat;
+	background-size:200% auto; 
+    float: left;
+    height: auto;
+    clear: none;
+    width: 28%;
+    height: auto;
+    margin: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;      
+}
+#cell-5{
+	background-image: url(../images/icono-como-llegar.gif);
+	background-repeat: no-repeat;
+	background-size:200% auto; 
+    float: left;
+    height: auto;
+    clear: none;
+    width: 28%;
+    margin: 0px 0px 0px 8%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;       
+}
+#cell-6 {
+	background-image: url(../images/icono-camara.gif);
+	background-repeat: no-repeat;
+	background-size:200% auto; 
+    float: right;
+    height: auto;
+    clear: none;
+    width: 28%;
+    margin: 0px 0% 0px 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;       
+}
+#cell-1:hover, #cell-1:active {
+	background-position-x: 100%;
+}
+
+#cell-2:hover, #cell-2:active {
+	background-position-x: 100%;
+}
+#cell-3:hover, #cell-3:active {
+	background-position-x: 100%;
+}
+
+#cell-4:hover, #cell-4:active {
+	background-position-x: 100%;
+}
+
+#cell-5:hover, #cell-5:active {
+	background-position-x: 100%;
+}
+
+#cell-6:hover, #cell-6:active {
+	background-position-x: 100%;
+}
+
+
+#image-icon {
+    width: 80%;
+    max-width: 80%;
+    height: auto;
+    margin: auto 0px;
+    clear: none;
+
+}
+#text-container {
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+    min-width: 0px;
+}
+#text-icon {
+	font-weight: bold;
+    float: none;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    word-wrap: break-word;
+    margin: 10% auto 20% auto;
+    clear: none;
+    min-height: 0px;
+    min-width: 0.5em;
+}
+
+
+
+/* IPAD */
+@media only screen and (max-width: 1024px) and (orientation: landscape){
+	#menu {
+	    width: 50%;
+	}
+	
+}
+
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+	#menu {
+	    width: 85%;
+	}
+}
+
+/* iPHONE 5 Landscape */
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+	#menu {
+	    width: 50%;
+	}
+	#text-icon {
+	    font-size:11px;
+	}
+}
+
+/* iPHONE 3 y 4 landscape*/
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+	#menu {
+	    width: 60%;
+	}
+	#text-icon {
+	    font-size:10px;
+	}
+}
+
+/* iPHONE 3, 4 y 5 portrait*/
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+	#menu {
+	    width: 100%;
+	}
+	#text-icon {
+	    font-size:10px;
+	}
+}
+
+
+/* OTROS */
+
+@media only screen and (max-width: 854px) and (orientation: landscape) {
+	#text-icon {
+	    font-size:11px;
+	}
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+	#text-icon {
+	    font-size:11px;
+	}
+}
+
+@media only screen and (max-width: 720px) and (orientation: portrait) {
+	#menu {
+	    width: 100%;
+	}
+	#text-icon {
+	    font-size:11px;
+	}
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+	#text-icon {
+	    font-size:10px;
+	}
+}
+
+
+
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+	#menu {
+	    width: 100%;
+	}
+	#text-icon {
+	    font-size:11px;
+	}
+}
+
+@media only screen and (max-width: 320px) and (orientation: landscape) {
+	#menu {
+	    width: 70%;
+	}
+	#text-icon {
+	    font-size:8px;
+	}
+}
+
+@media only screen and (max-width: 240px) and (orientation: portrait) {
+	#menu {
+	    width: 80%;
+	}
+	#text-icon {
+	    font-size:8px;
+	}
+}
+
+
+

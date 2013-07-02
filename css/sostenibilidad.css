@@ -1,0 +1,230 @@
+#sostenibilidad  p, #sostenibilidad-es  p, #sostenibilidad-en  p {
+	margin-bottom: 25px;		
+}
+
+
+#sostenibilidad h2, #sostenibilidad-es h2, #sostenibilidad-en h2 {
+	font-size: 16px;
+	color: #04826b;	
+	text-shadow:none;	
+}
+
+#sostenibilidad h3, #sostenibilidad-es h3, #sostenibilidad-en h3 {
+	font-size: 16px;
+	background: transparent url("../images/bullet-sostenibilidad.gif") no-repeat left center;
+	padding-left: 25px;
+	margin-top: 30px;
+	color: #04826b;	
+	text-shadow:none;	
+}
+
+#recuerda 	{
+	margin-left: 15px;
+	margin-right: 15px;	
+}
+
+
+.amarillo {
+	padding-left: 25px;
+	background: transparent url("../images/bullet-sostenibilidad-amarillo.gif") no-repeat left center;		
+}
+.azul{
+	padding-left: 25px;
+	background: transparent url("../images/bullet-sostenibilidad-azul.gif") no-repeat left center;		
+}
+.girs-medio {
+	padding-left: 25px;
+	background: transparent url("../images/bullet-sostenibilidad-gris.gif") no-repeat left center;		
+}
+.marron {
+	padding-left: 25px;
+	background: transparent url("../images/bullet-sostenibilidad-marron.gif") no-repeat left center;		
+}
+.verde {
+	padding-left: 25px;
+	background: transparent url("../images/bullet-sostenibilidad-verde.gif") no-repeat left center;		
+}
+
+
+
+#listado-sponsors-4 {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	display: block;
+}
+
+#listado-sponsors-4 #sponsors-4 {
+	width: 25%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#listado-sponsors, #listado-sponsors-2 {
+	text-align: center;
+	margin: auto;
+	width: 60%;
+	display: block;
+}
+
+#listado-sponsors-2 #sponsors-2{
+	width: 50%;
+	float: left;
+	margin-bottom: 30px;
+}	
+
+
+
+
+#listado-sponsors, #listado-sponsors-3 {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	display: block;
+}
+
+#listado-sponsors-3 #sponsors-3{
+	width: 33%;
+	float: left;
+	margin-bottom: 30px;
+}	
+
+#como-llegar-googlemaps {
+	width: 100%;
+	height:100%;
+	background-color: #c8c8c8;
+}
+
+#como-llegar-mapa {
+	width: 100%;
+	height:100%;
+	background-color: blue;
+}
+
+#map_canvas {
+	width: 100%;
+	height:100%;
+}
+
+#map-page, #map-canvas { width: 100%; height: 100%; padding: 0; }
+
+@media only screen and (max-width: 480px) {
+	#listado-sponsors-4 {
+		text-align: center;
+		margin: auto;
+		width: 90%;
+		display: block;
+	}
+	
+	#listado-sponsors-4 #sponsors-4 {
+		width: 50%;
+		float: left;
+		margin-bottom: 15px;		
+	}
+	
+	#listado-sponsors-2 {
+		text-align: center;
+		margin: auto;
+		width: 90%;
+		display: block;
+	}
+		
+	#listado-sponsors-2 #sponsors-2{
+		width: 50%;
+		float: left;	
+		margin-bottom: 15px;
+	}	
+	
+	#listado-sponsors-3 #sponsors-3{
+		width: 50%;
+		float: left;
+		margin-bottom: 30px;
+	}	
+
+	#listado-sponsors-3 #sponsors-3-ulitmo{
+		width: 100%;
+		float: left;
+		margin-bottom: 30px;
+	}	
+	
+
+}
+
+@media only screen and (max-width:240px) {
+	#listado-sponsors-4 {
+		text-align: center;
+		margin: auto;
+		width: 90%;
+		display: block;
+	}
+	
+	#listado-sponsors-4 #sponsors-4 {
+		width: 100%;
+		margin-bottom: 5px;	
+}
+	
+	#listado-sponsors-2 {
+		text-align: center;
+		margin: auto;
+		width: 90%;
+		display: block;
+	}	
+	#listado-sponsors-2 #sponsors-2 {
+		width: 100%;
+		margin-bottom: 5px;			
+	}	
+}
+
+
+.indicaciones {
+	position: relative;
+	text-align: left;
+}
+
+.indicaciones p a {
+	text-decoration:none !important;
+	color: #686868 !important;
+}
+
+.indicaciones p a:hover {
+	color: #04826b !important;
+}
+
+.indicaciones p a:visited {
+	color: #686868 !important;
+}
+
+
+.indicaciones img {
+	position: relative;
+	top: 2px;	
+	margin: 0 10px 0 0;
+}
+
+.indicaciones .metro {
+	position: relative;
+	top: 2px;	
+	margin: 0 0 0 10px;
+}
+
+.indicaciones span {
+	position: relative;
+	color: white;
+	font-weight: bold;
+	margin: 0 10px 0 10px;
+	bottom: 2px;
+	background-color: gray;
+	-webkit-border-radius: 5px;
+	font-size: 10px;
+	padding: 4px;
+	
+}
+
+.indicaciones span:hover {
+
+}	
+
+.indicaciones a {
+	color: white;
+	text-decoration: none;
+}

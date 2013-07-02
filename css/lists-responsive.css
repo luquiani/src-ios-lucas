@@ -1,0 +1,421 @@
+/* This code is only meant for previewing your Reflow design. */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+.image-item-list {
+    display: block;
+}
+
+.artist-list {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    margin-top: 0px;
+}
+#item-list {
+    float: none;
+    height: auto;
+    clear: none;
+    width: 94%;
+    margin: 26px auto 0px;
+}
+
+#item {
+	background-image: url('../images/texture.png');
+   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 6px;	
+
+    float: left;
+    height: 100px;
+    clear: none;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 1%;
+}
+
+.horario {
+	text-align: center;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 100px;
+	float: left;
+	background: rgba(0, 0, 0, .2);
+ 	width: 150px;
+	height: 100%; 		
+}
+
+
+div #item a {
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+
+
+.item1 { background-color: #068365; }
+.item2 { background-color: #f2bc22; }
+.item3 { background-color: #f37c27; }
+.item4 { background-color: #068365; }
+.item5 { background-color: #f2bc22; }
+.item6 { background-color: #808080; }
+
+.item1:hover, item1:active { background-color: #808080; }
+.item2:hover, item2:active { background-color: #808080; }
+.item3:hover, item3:active { background-color: #808080; }
+.item4:hover, item4:active { background-color: #808080; }
+.item5:hover, item5:active { background-color: #808080; }
+.item6:hover, item6:active { background-color: #808080; }
+
+.separator {
+	background-image: url('../images/texture.png');
+   -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 6px;
+	padding-left: 20px;
+	color: white;
+	margin: 0px 0 5px 0;
+	font-size: 15px;		
+	height: 30px;	
+	line-height: 30px;	
+	background-color: gray;
+	-moz-border-radius:  10px 10px 0 0 ;
+	border-radius: 10px 10px 0 0 ;	
+	
+}
+
+#image-artista-list {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+#text-box {
+    float: left;
+    height: auto;
+    margin-left: 4%;
+    margin-top: 45px;
+    font-size: 18px;    
+    clear: none;
+    width: auto;
+}
+#text1 {
+	text-transform: uppercase;
+	font-family: Arial;
+    float: left;
+    color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    word-wrap: break-word;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+    min-width: 0.5em;
+    padding-right: 0px;
+}
+
+
+
+/* IPAD */
+@media only screen and (max-width: 1024px) and (orientation: landscape){
+   #item-list {
+        width: 96%;
+        margin-top: 2%;
+   }
+   #item {
+        height: 105px;
+        margin-bottom: 1%; 
+   }
+	#text-box {
+	    margin-top: 45px;
+	}  
+	.horario {
+		font-size: 22px;
+		line-height: 105px;
+	 	width: 150px;
+		height: 100%; 		
+	}	 
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+   #item-list {
+        width: 96%;
+        margin-top: 2%;
+   }
+   #item {
+        height: 105px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+	    margin-top: 45px;
+	} 
+	.horario {	
+		font-size: 20px;
+		line-height: 80px;
+	 	width: 150px;
+		height: 100%; 		
+	}	
+}
+
+@media only screen and (max-width: 768px) and (orientation: portrait) {
+   #item-list {
+        width: 96%;
+        margin-top: 2%;
+   }
+   #item {
+        height: 105px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+	    margin-top: 45px;
+	} 
+	.horario {	
+		font-size: 22px;
+		line-height: 110px;
+	 	width: 150px;
+		height: 100%; 		
+	}	
+}
+
+/* iPHONE 5 Landscape */
+@media only screen and (max-width: 568px) and (orientation: landscape) {
+   #item-list {
+        width: 96%;
+        margin-top: 2%;
+   }
+   #item {
+        height: 70px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+		font-size: 15px;
+	    margin-top: 28px;
+	}  
+	.horario {	
+		font-size: 18px;
+		line-height: 75px;
+	 	width: 110px;
+		height: 100%; 		
+	}		 
+}
+
+/* iPHONE 3 y 4 landscape*/
+@media only screen and (max-width: 480px) and (orientation: landscape) {
+	.horario {	
+		font-size: 18px;
+		line-height: 80px;
+	 	width: 150px;
+		height: 100%; 		
+	}		
+}
+
+@media only screen and (max-width: 480px) and (orientation: portrait) {
+
+
+	#text1 {
+	    font-size:12px;
+	   	line-height: 10px; 
+	}	
+	.horario {	
+		font-size: 20px;
+		line-height: 105px;
+	 	width: 150px;
+		height: 100%; 		
+	}		
+}
+
+
+/* iPHONE 3, 4 y 5 portrait*/
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+   #item-list {
+        width: 94%;
+        margin-top: 3%;
+   }
+   #item {
+        height: 65px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+		font-size: 12px;
+	    margin-top: 28px;
+	} 	 
+	.horario {	
+		font-size: 17px;
+		line-height: 65px;
+	 	width: 100px;
+		height: 100%; 		
+	}			
+}
+
+/* OTROS */
+
+@media only screen and (max-width: 1280px) and (orientation: landscape) {
+   #item-list {
+        width: 96%;
+        margin-top: 2%;
+   }
+   #item {
+        height: 105px;
+        margin-bottom: 1%; 
+   }
+	#text-box {
+	    margin-top: 45px;
+	}    
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+   #item-list {
+        width: 96%;
+        margin-top: 2%;
+   }
+   #item {
+        height: 80px;
+        margin-bottom: 1%; 
+   }
+	#text-box {
+	    margin-top: 32px;
+	}  
+}
+
+@media only screen and (max-width: 720px) and (orientation: portrait) {
+   #item-list {
+        width: 96%;
+        margin-top: 2%;
+   }
+   #item {
+        height: 105px;
+        margin-bottom: 1%; 
+   }
+	#text-box {
+	    margin-top: 45px;
+	}  
+}
+
+@media only screen and (max-width: 640px) and (orientation: landscape) {
+   #item-list {
+        width: 94%;
+        margin-top: 3%;
+   }
+   #item {
+        height: 65px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+		font-size: 12px;
+	    margin-top: 28px;
+	}  
+	.horario {	
+		font-size: 17px;
+		line-height: 67px;
+	 	width: 100px;
+		height: 100%; 		
+	}	
+}
+
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+   #item-list {
+        width: 94%;
+        margin-top: 3%;
+   }
+   #item {
+        height: 65px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+		font-size: 12px;
+	    margin-top: 28px;
+	}  
+	.horario {	
+		font-size: 17px;
+		line-height: 60px;
+	 	width: 100px;
+		height: 100%; 		
+	}	
+}
+
+@media only screen and (max-width: 320px) and (orientation: landscape) {
+   #item-list {
+        width: 94%;
+        margin-top: 3%;
+   }
+   #item {
+        height: 65px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+		font-size: 12px;
+	    margin-top: 28px;
+	}  
+	.horario {	
+		font-size: 17px;
+		line-height: 60px;
+	 	width: 100px;
+		height: 100%; 		
+	}		
+}
+
+@media only screen and (max-width: 384px) and (orientation: portrait) {
+   #item-list {
+        width: 94%;
+        margin-top: 3%;
+   }
+   #item {
+        height: 62px;
+        margin-bottom: 2%; 
+   }
+	#text-box {
+		font-size: 12px;
+	    margin-top: 28px;
+	}  
+	.horario {	
+		font-size: 17px;
+		line-height: 65px;
+	 	width: 100px;
+		height: 100%; 		
+	}	
+}
+
+@media only screen and (max-width: 240px) and (orientation: portrait) {
+   #item-list {
+        width: 94%;
+        margin-top: 3%;
+   }
+   #item {
+        height: 39px;
+        margin-bottom: 3%; 
+   }
+	#text-box {
+		font-size: 10px;
+	    margin-top: 15px;
+	} 
+	.horario {	
+		font-size: 14px;
+		line-height: 40px;
+	 	width: 80px;
+		height: 100%; 		
+	}
+	.separator {
+		font-size: 11px;		
+		height: 25px;	
+		line-height: 27px;		
+	}	
+	 
+}
+
+
+
+
+
+
+
+
